@@ -1,10 +1,15 @@
+import Header from "./UI/Header/Header";
 import "./styles.css";
-
+import About from "./UI/About/About";
+import Visual from "./UI/visual/Visual";
+import Footer from "./UI/Footer/Footer";
 export default function App() {
   return (
     <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
+      <Header />
+      <About />
+      <Visual />
+      <Footer />
     </div>
   );
 }

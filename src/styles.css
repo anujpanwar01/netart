@@ -1,4 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  @media only screen and (max-width: 500px) {
+    font-size: 56.25%;
+  }
+}
+body {
+  padding: 2rem 2rem 1rem;
+  background-image: linear-gradient(to bottom, #f2f0da, #ffffaaa6);
+}
+
 .App {
-  font-family: sans-serif;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
 }
