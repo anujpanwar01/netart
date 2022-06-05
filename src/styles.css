@@ -12,6 +12,8 @@ html {
 body {
   padding: 2rem 2rem 1rem;
   background-image: linear-gradient(to bottom, #f2f0da, #ffffaaa6);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
 .App {
